@@ -13,15 +13,19 @@ https://github.com/DmitryGaimaldinov/my_garage_workshop/commit/fde7c806cec2580dc
 ![image](https://github.com/DmitryGaimaldinov/my_garage_workshop/assets/123044629/83ede8f7-e8cd-4207-8e03-91c886537359)
 
 История пробега
+
 ![image](https://github.com/DmitryGaimaldinov/my_garage_workshop/assets/123044629/e9773125-9b8c-4ebc-b2fe-f3f6cd6b3714)
 
 Удаление каких-то элеметов из истории пробега
+
 ![image](https://github.com/DmitryGaimaldinov/my_garage_workshop/assets/123044629/24f4eefe-54b3-4825-8f8e-c2488a32bd38)
 
 Обновление пробега
+
 ![image](https://github.com/DmitryGaimaldinov/my_garage_workshop/assets/123044629/c80984d9-0d66-4974-9ef8-9106e65f9e46)
 
 Редактирование характеристик машины
+
 ![image](https://github.com/DmitryGaimaldinov/my_garage_workshop/assets/123044629/c2413e26-fe8c-4127-a17d-0ed84bc2d8f5)
 
 # Мой гараж
