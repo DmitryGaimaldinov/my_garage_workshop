@@ -6,8 +6,8 @@ import 'package:my_garage/src/router.dart';
 
 import 'garage_save_mileage_button.dart';
 
-class GarageAddMileageView extends StatefulWidget {
-  const GarageAddMileageView({
+class GarageUpdateMileageView extends StatefulWidget {
+  const GarageUpdateMileageView({
     super.key,
     required this.autoId,
     this.mileageId,
@@ -19,10 +19,10 @@ class GarageAddMileageView extends StatefulWidget {
   final int? mileageValue;
 
   @override
-  State<GarageAddMileageView> createState() => _GarageAddMileageViewState();
+  State<GarageUpdateMileageView> createState() => _GarageUpdateMileageViewState();
 }
 
-class _GarageAddMileageViewState extends State<GarageAddMileageView> {
+class _GarageUpdateMileageViewState extends State<GarageUpdateMileageView> {
   late final GlobalKey<FormState> _key;
 
   late AutoMileage _mileage = AutoMileage(
