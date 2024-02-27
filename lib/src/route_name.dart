@@ -5,7 +5,8 @@ enum RouteName {
   garageAdd('add'),
   garageAuto('auto/:id'),
   garageUpdate('update'),
-  easterEgg('/easter-egg');
+  easterEgg('/easter-egg'),
+  garageAddMileage('add-mileage');
 
   const RouteName(this.path);
 

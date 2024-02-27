@@ -26,9 +26,14 @@ class GarageRepository extends DatabaseAccessor<Database>
     return query.getSingleOrNull();
   }
 
-  Future<void> updateAutoById(int id, {int? mileage}) async {
-    await (update(autoTable)..where((tbl) => tbl.id.equals(id)))
-        .write(AutoTableCompanion(mileage: Value(mileage)));
+  Future<void> updateAutoById(int id, {int? mileage, String? chassisNumber, String? bodyNumber, String? vin}) async {
+    await (update(autoTable)..where((tbl) => tbl.id.equals(id))).write(
+        AutoTableCompanion(
+            mileage: Value(mileage),
+            chassisNumber: Value(chassisNumber),
+            bodyNumber: Value(bodyNumber),
+            vin: Value(vin),
+        ));
   }
 
   Future<void> deleteAutoById(int id) async {
