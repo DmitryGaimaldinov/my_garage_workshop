@@ -23,7 +23,6 @@ class GarageUpdateScreen extends StatelessWidget {
         bodyNumber: bodyNumber,
         chassisNumber: chassisNumber,
         vin: vin,
-        mileage: mileage,
       ),
     );
   }

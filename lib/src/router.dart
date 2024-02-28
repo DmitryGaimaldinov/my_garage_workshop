@@ -9,6 +9,8 @@ import 'package:my_garage/src/garage/ui/screens/garage_update_screen.dart';
 import 'package:my_garage/src/internal/infra/database.dart';
 import 'package:my_garage/src/internal/infra/extensions/string_x.dart';
 
+import 'garage/ui/screens/garage_update_mileage_screen.dart';
+
 export 'package:go_router/go_router.dart';
 
 part 'route_name.dart';
@@ -53,6 +55,18 @@ abstract class RouterInjectableModule {
                       state.uri.queryParameters['mileage'] ?? '',
                     ),
                   ),
+                ),
+                GoRoute(
+                  path: RouteName.garageAddMileage.path,
+                  name: RouteName.garageAddMileage.name,
+                  builder: (_, state) {
+                    return GarageUpdateMileageScreen(
+                      key: state.pageKey,
+                      autoId: int.parse(state.uri.queryParameters['autoId']!),
+                      mileageId: int.parse(state.uri.queryParameters['mileageId'] ?? ''),
+                      mileageValue: int.parse(state.uri.queryParameters['mileageValue'] ?? ''),
+                    );
+                  },
                 ),
               ],
             ),

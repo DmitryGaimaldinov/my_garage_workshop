@@ -7,10 +7,15 @@ class GarageAutoMileageListTile extends StatelessWidget {
     super.key,
     required this.mileage,
     required this.createdAt,
+    required this.onDelete,
+    required this.onEdit
   });
 
   final int mileage;
   final DateTime createdAt;
+  final VoidCallback onDelete;
+  final VoidCallback onEdit;
+
 
   @override
   Widget build(BuildContext context) {
@@ -31,6 +36,14 @@ class GarageAutoMileageListTile extends StatelessWidget {
         style: context.textTheme.bodyMedium
             ?.copyWith(color: context.colors.secondary),
         maxLines: 1,
+      ),
+      trailing: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          IconButton(onPressed: onEdit, icon: const Icon(Icons.edit)),
+          const SizedBox(width: 8),
+          IconButton(onPressed: onDelete, icon: const Icon(Icons.delete, color: Colors.red))
+        ],
       ),
     );
   }
