@@ -1,3 +1,33 @@
+Сделал домашку по воркшопу Tages. Добавил историю пробега и редактирование характеристик машины.
+
+Посмотреть добавленный код можно в пулреквесте https://github.com/DmitryGaimaldinov/my_garage_workshop/pull/1
+
+Скриншоты:
+
+Список машин
+
+![image](https://github.com/DmitryGaimaldinov/my_garage_workshop/assets/123044629/c9bd66f4-e918-42fc-9d4f-cc18f55c521b)
+
+История пробега
+
+![image](https://github.com/DmitryGaimaldinov/my_garage_workshop/assets/123044629/c94850c9-4023-44ba-acc1-07600ef40a17)
+
+
+Удаление каких-то элеметов из истории пробега
+
+![image](https://github.com/DmitryGaimaldinov/my_garage_workshop/assets/123044629/a05617e2-25e0-497e-9972-4491bae353c9)
+
+
+Обновление пробега
+
+![image](https://github.com/DmitryGaimaldinov/my_garage_workshop/assets/123044629/27ba022e-471e-4c4a-aab8-8967983ad834)
+
+
+Редактирование характеристик машины
+
+![image](https://github.com/DmitryGaimaldinov/my_garage_workshop/assets/123044629/71044d3a-1842-4644-8a7e-1c056845cad0)
+
+
 # Мой гараж
 
 Вы готовы погрузиться в мир кроссплатформенной разработки и создать свое первое приложение «Мой гараж»? Наш воркшоп –
